@@ -1,0 +1,29 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+public <general>  = ( how're you | hello | terminate program | thank you | what time is it | what is the date | search google | search song | play | search | what is your purpose);
+
+public <voices>  = ( change to voice one  | change to voice two | change to voice three );
+
+public <syntax>  = (one | two | three| four| five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty) 
+
+                               (plus | minus | multiply | division)  
+                        
+                   (one | two | three| four| five | six | seven | eight | nine | ten | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen | eighteen | nineteen | twenty);
+
+
+public <open> = (open notepad | open twitter | open safari | open spotify | open word | open mail);
+
+public <close> = (close notepad | close twitter | close safari | close spotify | close word | close mail);
+
+public <change> = (change volume to max | change volume to min | mute | change volume to medium);
+
+public <songs> = (play ashes to ashes | play suffragette city | play shoot to thrill | play i don't like Mondays | play killer queen | play new moon on Monday | play stand and deliver | play China in your hand);
+
+
+
